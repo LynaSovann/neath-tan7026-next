@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: neath-tan7026-next-deployment
+  labels:
+    app: neath-tan7026-next
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: neath-tan7026-next
+  template:
+    metadata:
+      labels:
+        app: neath-tan7026-next
+    spec:
+      containers:
+        - name: neath-tan7026-next-container
+          image: pipejet/neath-tan7026-next:0
+          ports:
+            - containerPort: 8080
