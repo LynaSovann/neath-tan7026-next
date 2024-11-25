@@ -9,6 +9,7 @@ metadata:
     notifications.argoproj.io/subscribe.on-sync-failed.telegram: "-1002195638358"
     notifications.argoproj.io/on-health-degraded.telegram: "-1002195638358"
     notifications.argoproj.io/subscribe.on-deleted.telegram: "-1002195638358"
+    notifications.argoproj.io/subscribe.on-sync-succeeded.gmail: neathtan1402@gmail.com
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
