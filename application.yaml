@@ -4,7 +4,7 @@ metadata:
   name: neath-tan7026-next
   namespace: argocd
   annotations:
-    notifications.argocd.argoproj.io/subscribe.on-sync-succeeded: "updateDeploymentStatusTrigger"
+    notifications.argoproj.io/subscribe.on-sync-succeeded.updateDeploymentStatusWebhook: ""
     notifications.argoproj.io/subscribe.on-sync-succeeded.telegram: "-1002195638358"
     notifications.argoproj.io/subscribe.on-sync-failed.telegram: "-1002195638358"
     notifications.argoproj.io/on-health-degraded.telegram: "-1002195638358"
